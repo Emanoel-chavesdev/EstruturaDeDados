@@ -18,10 +18,10 @@ public class Questao01 {
 	     System.out.printf("\nResultado do Vetor",i+1);
 	     vetor[i]= entrada.nextInt();
 				}
-	      int num;
-		System.out.println("Digite um valor a ser localizado: ");
-                num = in.nextInt();
-               System.out.println();
+	     int num;
+	     System.out.println("Digite um valor a ser localizado: ");
+              num = in.nextInt();
+              System.out.println();
 	        
 	    for(int i=0;i<vetor.length;i++){
 	            
