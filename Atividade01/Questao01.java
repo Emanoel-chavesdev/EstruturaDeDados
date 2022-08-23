@@ -26,7 +26,7 @@ public class Questao01 {
 	            System.out.println("A posição do numero pedido eh " + i);
 	            // se não existir...
 	            } else if(i != vetor.length){
-	                System.out.println("Número não encontrado no vetor");
+	                System.out.println("Número não existe no vetor");
 	            }
 		}
 
