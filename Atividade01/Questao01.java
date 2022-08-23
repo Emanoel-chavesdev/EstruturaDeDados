@@ -11,4 +11,8 @@ public class Questao01 {
 
 	    System.out.println(Vector []);
 }
+	for(int i=0;i<10;i++){
+	System.out.printf("\nResultado do Vetor",i+1);
+				vetor[i]= entrada.nextInt();
+				}
 }
