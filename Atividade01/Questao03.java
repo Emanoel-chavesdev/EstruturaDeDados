@@ -14,7 +14,7 @@ public class Questao03 {
 		System.out.println(" ");
 
 		for(i = 0; i<5; i++){
-			for(int j = 0; j<49; j++){
+			for(int j = 0; j<50j++){
 				if(vet[j] > vet[j + 1]){
 					aux = vet[j];
 					vet[j] = vet[j+1];
@@ -23,10 +23,14 @@ public class Questao03 {
 			}
 		}
 		System.out.println("Vetor organizado:");
-		for(i = 0; i<50; i++){
+		for(i = 0; i< vet.length; i++){
 			System.out.println(" "+vet[i]);
 		}
-		System.out.println("Digite o valor a ser procurado")
+		System.out.println("Digite o valor a ser procurado: ");
+		int num = scan.nextInt();
+		
+		int inicio=0, meio=0, fim=vet.length - 1;
+		while inicio <= fim) {
 	}
 	}
 
