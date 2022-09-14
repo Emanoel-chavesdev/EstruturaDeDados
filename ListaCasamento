@@ -1,0 +1,34 @@
+public class Main {
+
+  public static void main(String[] args) {
+    ListaLigada listaNoiva = new ListaLigada();
+    ListaLigada listaNoivo = new ListaLigada();
+
+    ListaLigada listaGeral = new ListaLigada();
+    String nome;
+    Scanner ler = new Scanner(System.in);
+
+    for(int i =0;i<6;i++)
+    {
+      System.out.println("Digite o convidado da Noiva: ");
+      nome = ler.nextLine();
+      listaNoiva.adicionar(nome);
+    }
+    for(int i=0;i<4;i++)
+      {
+       System.out.println("Digite o convidado do Noivo: ");
+      nome = ler.nextLine();
+      listaNoiva.adicionar(nome); 
+      }
+
+    //Mostra a Lista da Noiva
+    System.out.println("****Lista da Noiva****");
+    for int i=0; i < listaNoiva.getTamanho(); i++{
+      System.out.println(listaNoiva.get(i).getValor());
+    }
+    
+    System.out.println("****Lista da Noivo****");
+    for int i=0; i < listaNoivo.getTamanho(); i++{
+      System.out.println(listaNoiva.get(i).getValor());
+  }
+}
